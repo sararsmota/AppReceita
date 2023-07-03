@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600;700&display=swap');
+
+:root{
+    --color-container: #FEECE0;
+    --color-primary: #58190A;
+    --color-secundary: #9B6647;
+}
+
+*{
+    font-family: 'Source Serif 4', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-container);
+    gap: 3.5rem;
+    padding: 60px;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    font-size: 72px;
+    color: var(--color-primary);
+}
+
+#description{
+    color: var(--color-primary);
+    font-size: 38px;
+    margin: 10px;
+}
+
+.qtd-portion{
+    color: var(--color-secundary);
+    font-size: 35px;
+    justify-content: space-between center;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.qtd-portion img{
+    margin: 10px;
+}
+
+.qtd-portion h1{
+    font-size: 40px;
+}
+
+.main-content{
+    background-color: var(--color-secundary);
+    /* width: 100%; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#ingredients{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.title-ingredients{
+    display: flex;
+    align-items: center;
+    justify-content: space-between center;
+    padding: 20px;
+    margin: 80px;
+}
+
+.title-ingredients h1{
+    font-size: 36px;
+    color: var(--color-container);
+    margin: 10px;
+}
+
+#preparation{
+    display: flex;
+}
+
+.title-preparation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between center;
+    padding: 20px; 
+    margin: 80px; 
+}
+
+.title-preparation h1{
+    font-size: 36px;
+    color: var(--color-container);
+    margin: 10px;
+}
+
+#desc-ingredients p{
+    display: flex;
+    font-size: 28px;
+    color: var(--color-container);
+}
+
+
